@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build EasyX x64",
+      "type": "shell",
+      "command": "${workspaceFolder}\\build.bat",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "run EasyX x64",
+      "type": "shell",
+      "command": "${workspaceFolder}\\run.bat",
+      "problemMatcher": []
+    }
+  ]
+}
